@@ -134,7 +134,7 @@ LIMIT 10;
 -- Note : Since multiple actors exist in one field, this query ranks the most common actor. combinations.
 
 SELECT
-    `cast`,
+    cast,
     COUNT(*) AS Total_Titles
 FROM netflix_titles
 WHERE `cast` IS NOT NULL
